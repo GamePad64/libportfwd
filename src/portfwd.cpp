@@ -16,8 +16,8 @@ Portfwd::Portfwd()
 
 Portfwd::~Portfwd()
 {
-    if(urls) free(urls);
-    if(data) free(data);
+    free(urls);
+    free(data);
 }
 
 bool
@@ -103,6 +103,10 @@ Portfwd::add( unsigned short port, unsigned short internal_port )
    char port_str[16], port_str_internal[16];
    int r;
    printf("Portfwd::add (%s, %d)\n", m_lanip.c_str(), port);
+
+   if(!urls->controlURL)
+        return false; // return on null
+   
    if(urls->controlURL[0] == '\0')
    {
        printf("Portfwd - the init was not done !\n");
@@ -126,6 +130,10 @@ Portfwd::remove( unsigned short port )
 {
    char port_str[16];
    printf("Portfwd::remove(%d)\n", port);
+
+   if(!urls->controlURL)
+        return false; //return on null
+        
    if(urls->controlURL[0] == '\0')
    {
        printf("Portfwd - the init was not done !\n");
