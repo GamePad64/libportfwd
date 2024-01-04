@@ -1,7 +1,8 @@
 repo_name: GamePad64/libportfwd
 report_id: 10dde5be590517463060bb1ee83b5abd
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:59:01+00:00'
+timestamp: '2024-01-04T14:59:00+00:00'
 requested_by: MilanIvanovic
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/GamePad64/libportfwd
   detection_source: Repo Metadata
 - name: CMake
   description: 'An open-source system that manages the build process '
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/GamePad64/libportfwd
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GamePad64/libportfwd
   detection_source: Repo Metadata
 - name: Visual Studio
   description: State-of-the-art tools and services that you can use to create great
@@ -44,6 +48,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/GamePad64/libportfwd/blob/master/third-party/libnatpmp-20100202/msvc/libnatpmp.sln
   detection_source: third-party/libnatpmp-20100202/msvc/libnatpmp.sln
   last_updated_by: Christian Muehlhaeuser
   last_updated_on: 2010-10-27 01:34:25.000000000 Z
