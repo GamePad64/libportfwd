@@ -2,7 +2,7 @@ repo_name: GamePad64/libportfwd
 report_id: 10dde5be590517463060bb1ee83b5abd
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:22:01+00:00'
+timestamp: '2024-02-29T18:06:51+00:00'
 requested_by: MilanIvanovic
 provider: github
 branch: master
@@ -20,7 +20,7 @@ tools:
   detection_source_url: https://github.com/GamePad64/libportfwd
   detection_source: Repo Metadata
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
